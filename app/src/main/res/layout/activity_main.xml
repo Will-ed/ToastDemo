@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ed.will.toastdemo.MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/toast1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast的基础用法"/>
+
+
+    <Button
+        android:id="@+id/toast2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast的显示位置"/>
+
+    <Button
+        android:id="@+id/toast3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast只显示一个图片"/>
+
+    <Button
+        android:id="@+id/toast4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast的自定义背景和自体颜色"/>
+</LinearLayout>
